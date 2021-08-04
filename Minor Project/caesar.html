@@ -79,7 +79,7 @@
                 }
                 else
                 {
-                ch =  String.fromCharCode(152 - (char.charCodeAt(0) - parseInt(key)-65) % 26 + 65);
+                ch =  String.fromCharCode((char.charCodeAt(0) - parseInt(key)-65) % 26 + 65);
                 }
                  result += ch;
             }
